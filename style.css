@@ -1,3 +1,8 @@
 header {
-    background-color: #383D58;
+    background-color: #0919f5;
+    display: flex;
+    justify-content:space-around ;
+}
+.cabeçalho-imagem{
+ width: 20%;
 }
