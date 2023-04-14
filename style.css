@@ -18,3 +18,17 @@ header {
     margin: 0 16px;
     font-size: 24px;
 }
+
+.escola-imagem{
+    width: 22%;
+}
+
+.escola{
+    background-image: linear-gradient(#8104f7, #000000);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.escola-div-conteudo{
+   width: 45%;
+}
