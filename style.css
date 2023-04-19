@@ -50,3 +50,17 @@ body{
 .personagen-imagem{
   width: 200px;
 }
+
+.personagen-div{
+    text-align: start;
+}
+
+.personagens-titulo{
+    text-align: center;
+    padding: -20px 0;
+}
+
+.personagens-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
