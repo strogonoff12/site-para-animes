@@ -14,9 +14,13 @@ header {
  width: 20%;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabeçalho-lista-item{
     display:inline-block;
-    margin: 0 16px;
+    margin: 0 156px;
     font-size: 24px;
 }
 
@@ -37,4 +41,12 @@ header {
 }
 .escola-titulo{
     padding: 14px 0;
+}
+
+.personagens-imagem{
+    width: 200px;
+}
+
+.personagen-imagem{
+  width: 200px;
 }
