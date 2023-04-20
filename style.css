@@ -30,11 +30,11 @@ body{
 
 .escola{
     background-image: linear-gradient(#3f0a70, #0f0f0f);
-    color: rgb(2, 2, 2);
+    color: rgb(187, 12, 12);
     display: flex;
     justify-content: center;
     align-items:start;
-    padding: 75px;
+    padding: 55px;
 }
 .escola-div-conteudo{
    width: -95%;
@@ -62,5 +62,14 @@ body{
 
 .personagens-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 50% 50% 50% 50%;
 }
+
+.container {
+    text-align: center;
+  }
+  
+  .kaiser, .dante .joui .gal-sal .arthur {
+    display: inline-block;
+    width: 50%;
+  }
