@@ -1,75 +1,10 @@
- *{
-  margin: 0;
-  padding: 0;
-}
+@import url("styles/header.css");
 
-header {
-    background-color: #000000;
-    display: flex;
-    justify-content:space-around ;
-    padding: 05px 0;
-    color: #ffffff;
-}
-.cabeçalho-imagem{
- width: 20%;
+:root{
+    --cor-de-fundo: #dadada;
+    --branco: rgb(201, 6, 6);
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-de-fundo);
 }
-
-.cabeçalho-lista-item{
-    display:inline-block;
-    margin: 0 156px;
-    font-size: 24px;
-}
-
-.escola-imagem{
-    width: 44%;
-}
-
-.escola{
-    background-image: linear-gradient(#3f0a70, #0f0f0f);
-    color: rgb(187, 12, 12);
-    display: flex;
-    justify-content: center;
-    align-items:start;
-    padding: 55px;
-}
-.escola-div-conteudo{
-   width: -95%;
-}
-.escola-titulo{
-    padding: 14px 0;
-}
-
-.personagens-imagem{
-    width: 200px;
-}
-
-.personagen-imagem{
-  width: 200px;
-}
-
-.personagen-div{
-    text-align: start;
-}
-
-.personagens-titulo{
-    text-align: center;
-    padding: -20px 0;
-}
-
-.personagens-todos{
-    display: grid;
-    grid-template-columns: 50% 50% 50% 50%;
-}
-
-.container {
-    text-align: center;
-  }
-  
-  .kaiser, .dante .joui .gal-sal .arthur {
-    display: inline-block;
-    width: 50%;
-  }
